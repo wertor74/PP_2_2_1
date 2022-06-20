@@ -1,9 +1,12 @@
 package hiber.model;
 
+import org.springframework.stereotype.Component;
+
 import javax.persistence.*;
 
 @Entity
 @Table(name = "cars")
+@Component
 public class Car {
 
     @Id
