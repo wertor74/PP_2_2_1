@@ -6,7 +6,6 @@ import javax.persistence.*;
 
 @Entity
 @Table(name = "cars")
-@Component
 public class Car {
 
     @Id
@@ -18,9 +17,6 @@ public class Car {
 
     @Column(name = "series")
     private int series;
-
-/*    @OneToOne
-    private User user;*/
 
     public Car() {}
 
